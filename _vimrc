@@ -10,6 +10,8 @@ set smartcase
 set hlsearch
 set encoding=utf-8
 set guioptions-=r
+set guioptions-=T
+set guioptions-=m
 set visualbell
 set spell spelllang=en_us
 set so=5
@@ -20,7 +22,7 @@ filetype on
 filetype indent on
 filetype plugin on
 
-set guifont=Terminus\ 12
+set guifont=Monospace\ 13
 colorscheme desert
 
 execute pathogen#infect()
@@ -32,5 +34,5 @@ map <Leader>nu :set nu! <CR>
 let g:tagbar_singleclick = 1
 let g:tagbar_compact = 1
 let NERDTreeMouseMode = 1
-let g:CommandTFileScanner = 'git'
+"let g:CommandTFileScanner = 'git'
 let g:vim_markdown_folding_disabled = 1
