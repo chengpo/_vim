@@ -36,3 +36,7 @@ let g:tagbar_compact = 1
 let NERDTreeMouseMode = 1
 "let g:CommandTFileScanner = 'git'
 let g:vim_markdown_folding_disabled = 1
+
+autocmd BufReadPost *.py :command! Py !python3 %:t
+cnoreabbrev py Py
+
