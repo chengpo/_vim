@@ -41,3 +41,7 @@ let g:vim_markdown_folding_disabled = 1
 autocmd BufReadPost *.py :command! Py !python3 %:t
 cnoreabbrev py Py
 
+" set misspelling hightlighted by underline
+hi clear SpellBad
+hi SpellBad cterm=underline
+hi SpellBad gui=undercurl
