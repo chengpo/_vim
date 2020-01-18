@@ -15,6 +15,7 @@ set guioptions-=m
 set visualbell
 set spell spelllang=en_us
 set so=5
+set background=dark
 
 set wildignore=*.swp,*.pyc,*.class,*.jar,*.png
 
