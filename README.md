@@ -11,3 +11,6 @@ git submodule update --remote
 set guifont=Monaco:h15
 
 colorscheme macvim
+
+## compile command-t
+use vim --version to find the right ruby interpretor.
